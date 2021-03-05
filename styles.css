@@ -53,4 +53,14 @@ h1 {
     ;
     height: 170px;
   }
-  
+  #particles canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.vid-container {
+  display: flex;
+ flex-direction: column;
+}
