@@ -7,7 +7,7 @@ h1 {
     color: burlywood;
   }
   body {
-        background-color: #13355E;
+        background-color: #7188FF;
     ;
 
   }
@@ -49,8 +49,8 @@ h1 {
   }
   
   .navbar-custom {
-    background-color: #CEE8FF;
-    ;
+    background-color: #FFA564;
+    
     height: 170px;
   }
   #particles canvas{
@@ -59,8 +59,131 @@ h1 {
     height: 100%;
     z-index: 999;
 }
+.vid-container{
 
-.vid-container {
   display: flex;
- flex-direction: column;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#video {
+ 
+position: absolute;
+width: 299px;
+height: 267px;
+left: 221px;
+top: 130%;
+ 
+}
+#canvas {
+  position: absolute;
+width: 299px;
+height: 267px;
+left: 597px;
+top: 130%;
+
+}
+
+.steps{
+  position: relative;
+  width: 274px;
+  height: 247px;
+  left: 0px;
+  top: 725px;
+  
+  background: #FFFFFF;
+  border: 5px solid #FFA564;
+  box-sizing: border-box;
+}
+.steps-cont{
+display: flex;
+justify-content: space-between;
+}
+.start{
+  position: absolute;
+  width: 338px;
+  height: 58px;
+  left: 95px;
+  top: 70%;
+  
+  background: #FFA564;
+  border-radius: 20px;
+}
+.bruh {
+font-family: 'Audiowide', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 31px;
+color: #000000;
+}
+.getresponse{
+  position: absolute;
+  width: 299px;
+height: 267px;
+left: 973px;
+height: 130%;
+}
+.startbutton {
+  position: absolute;
+  width: 299px;
+  height: 267px;
+  left: 973px;
+  height: 180%;
+}
+.arrow {
+position: absolute;
+left: 150%;
+
+}
+.arrow1 {
+  position: absolute;
+  left: 150%;
+  
+}
+.title {
+  position: absolute;
+width: 597px;
+height: 168px;
+left: 95px;
+top: 47%;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 72px;
+line-height: 84px;
+
+color: #FFFFFF;
+}
+.s{
+  
+position: absolute;
+width: 156px;
+height: 203px;
+left: 974px;
+top: 257px;
+}
+
+.i{
+  position: absolute;
+width: 120px;
+height: 203px;
+left: 1130px;
+top: 257px;
+}
+.Ellipse {
+  position: absolute;
+  width: 336px;
+  height: 287px;
+  left: 948px;
+  top: 232px;
+  
+  background: #FFFFFF;
+  border: 10px solid #FF964A;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-responsive {
+  width: 50%;
 }
