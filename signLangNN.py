@@ -86,14 +86,13 @@ model.compile( #compile the model and check for accuracy
 model.fit( # fit the model
     train_ds,
     validation_data=val_ds,
-    epochs=6, #number of times it runs
+    epochs=12, #number of times it runs
     batch_size=batch_size
 )
 model.save( #save the model
-    "numbersSignLangNNModel5.h5",
+    "numbersSignLangNNModel5",
     overwrite=True,
     include_optimizer=True,
-    save_format= ,
     signatures=None,
     options=None,
     save_traces=True,

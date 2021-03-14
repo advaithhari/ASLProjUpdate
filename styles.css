@@ -86,13 +86,20 @@ top: 30%;
 .steps{
   position: relative;
   width: 274px;
-  height: 247px;
+  height: 150px;
   left: 0px;
   top: 725px;
-  
-  background: #FFFFFF;
-  border: 5px solid #FFA564;
+  border: 2px solid black;
+  font-family: Verdana;
+  background: #FFA564;
+
   box-sizing: border-box;
+
+}
+.steps:hover
+{
+  border: 5px solid black;
+  cursor: pointer;
 }
 .steps-cont{
 display: flex;
@@ -102,8 +109,8 @@ justify-content: space-between;
   position: absolute;
   width: 338px;
   height: 58px;
-  left: 95px;
-  top: 70%;
+  left: 760px;
+  top: 140%;
   
   background: #FFA564;
   border-radius: 20px;
@@ -186,4 +193,14 @@ top: 257px;
 
 .img-responsive {
   width: 50%;
+}
+#startbutton {
+  position: absolute;
+  width: 338px;
+  height: 58px;
+  left: 760px;
+
+  
+  background: #FFA564;
+  border-radius: 20px;
 }
