@@ -204,3 +204,13 @@ top: 257px;
   background: #FFA564;
   border-radius: 20px;
 }
+.getresponse{
+  width: 338px;
+  height: 58px;
+  left: 840px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+}
